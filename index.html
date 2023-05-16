@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Coding School</title>
+  <link rel="stylesheet" href="css/common.css">
+  <script src="./script/jquery-3.3.1.min.js"></script>
+  <script src="./script/common.js" defer></script>
+</head>
+<body>
+  <!-- 메인헤더 -->
+  <header id="mainHeader">
+    <h1><img src="images/Logo.png" alt="Coding School"></h1>
+  </header>
+  <!-- 네비게이션 -->
+  <nav id="navigation">
+    <h2><a><img src="images/btnNavTotal.gif" alt="코딩스쿨 이용메뉴"></a></h2>
+    <div class="navWrap">
+      <ul>
+        <li><a href="#mainHeader">처음으로</a></li>
+        <li><a href="#sliderWrap">코딩이란</a></li>
+        <li><a href="#content1">왜 코딩 교육인가</a></li>
+        <li><a href="#content2">교육 프로그램</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- 슬라이더 -->
+  <section id="sliderWrap">
+    <div>
+      <h2>코딩이란</h2>
+      <ul class="sliderList">
+        <li class="slider1"><span>1. 알고리즘을 컴퓨터가 이해할 수 있는 언어로 바꾸어 컴퓨터에 입력하는 작업</span></li>
+        <li class="slider2"><span>2. 컴퓨터 작업의 흐름에 따라 프로그램의 명령문을 사용하여 프로그램을 작성하는 일</span></li>
+        <li class="slider3"><span>3. 코딩 교육을 통해 논리력 창의력 문제해결력을 키울 수 있다</span></li>
+      </ul>
+      <div class="btnList">
+        <span class="btn1 on">첫번째</span>
+        <span class="btn2">두번째</span>
+        <span class="btn3">세번째</span>
+      </div>
+    </div>
+  </section>
+  <!-- 왜 코딩 교육인가 -->
+  <section id="content1">
+    <div class="contentWrap1">
+      <header class="sectionHeader">
+        <h2>왜 코딩 교육인가</h2>
+      </header>
+      <p class="contentFirst">코딩교육은 앞으로 미래 사회를 살아가는데 있어서 IT 분야에서 일하는 사람들 뿐만 아니라 일반인에게도 꼭 필요한 공부입니다.프로그램을 다룰 수 있는 코딩 언어를 알고 있다면 평소 자신이 생각했던 프로그램을 스스로 개발해서 실생활에 활용할 수 있습니다. </p>
+      <blockquote class="contentSecond"><p>코딩은 사고의 범위를 넓혀주고, 더 나은 생각을 할 수 있게 만들며, <br>분야에 상관없이 모든 문제에 대해 새로운 해결책을<br>생각할 수 있는 힘을 길러주는 것<br><br><span>- 빌 게이츠 - </span></p></blockquote>
+    </div>
+  </section>
+  <!-- 교육 프로그램 -->
+  <section id="content2">
+    <div id="contentWrap2">
+      <header class="sectionHeader">
+        <h2>교육 프로그램</h2>
+      </header>
+      <div class="program pro">
+        <h3>언플러그드 활동</h3>
+        <p>컴퓨터 과학의 개념이나 원리를 스토리텔링으로 풀어가거나 학습지를 풀어가며 이해할 수도 있고 신체를 움직여 직접 활동하기도 합니다.</p>
+        <span>+</span>
+      </div>
+      <div class="program">
+        <h3>스크래치</h3>
+        <p>스크래치는 초보자들이 재미있게 프로그래밍을 익힐 수 있도록 고안된 프로그래밍 언어입니다. 게임이나 애니메이션과 같은 것을 쉽게 만들 수 있도록 고안되어 있기 때문에 어렵지 않게 프로그래밍 기법들을 익힐 수 있습니다.</p>
+        <span>-</span>
+      </div>
+      <div class="program">
+        <h3>엔트리</h3>
+        <p>엔트리는 국내에서 만들어진 교육용 프로그래밍 언어입니다. 어려운 텍스트 형식의 프로그래밍 언어 대신, 블록을 조립하듯 누구나 쉽게 프로그래밍을 시작할 수 있습니다. 모든 교육 자료를 홈페이지에서 무료로 배포합니다.</p>
+        <span>-</span>
+      </div>
+      <div class="program">
+        <h3>피지컬 컴퓨팅</h3>
+        <p> 센서를 이용해 사용자 동작에 반응하게 하거나 로봇을 움직여가며 코딩을 배울 수도 있습니다.아두이노를 비롯해 아두이노를 기반으로 하는 다양한 마이크로컨트롤러를 사용합니다.</p>
+        <span>-</span>
+      </div>
+    </div>
+  </section>
+  <!-- 푸터 -->
+  <div id="footerWrap">
+    <footer id="footer">
+      <address class="contact">
+        <span> 대구광역시 동구 아양로 한국IT교육원 </span><br>
+        <span> 사업자등록번호 : ㅁㅁㅁ-ㅁㅁ-ㅁㅁㅁㅁㅁ</span><br>
+        <span> 전화 : XXXX - XXXX  / 팩스 : XX - XXXX - XXXX </span><br>
+        <span> 이메일 : aaa@aaa.aaa</span>
+      </address>
+      <div class="sns"><!-- ul li 대체가능 -->
+        <a href="#"><img src="images/fb.png" alt=" "></a>
+        <a href="#"><img src="images/tw.png" alt=" "></a>
+        <a href="#"><img src="images/ytube.png" alt=" "></a>
+        <a href="#"><img src="images/gp.png" alt=" "></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
